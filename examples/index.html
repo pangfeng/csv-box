@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title></title>
+</head>
+<body>
+    
+    <input id="file_input" type="file" onchange="readFile()"/>
+    <script src="../dist/csv-box.js"></script>
+    <script>
+        
+        cbox.csv("./data/test.csv", (json)=>{
+            console.info(json);
+        })
+
+        cbox.csv("./data/test2.csv", (json)=>{
+            console.info(json);
+        })
+
+
+
+        function readFile(){
+            let files = document.getElementById('file_input').files;
+            if(! files.length){
+                console.info('no file');
+                return;
+            }
+
+            let file = files[0];
+            cbox.csv(file, (json)=>{
+                console.info(json);
+            })
+        }
+
+
+    </script>
+</body>
+</html>

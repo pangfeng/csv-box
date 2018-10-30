@@ -1,0 +1,20 @@
+{
+  "name": "csv-box",
+  "version": "1.0.0",
+  "description": "csv to json, csv parser, csv tools",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack -w",
+    "build": "webpack -p"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pangfeng/csv-box.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pangfeng/csv-box/issues"
+  },
+  "homepage": "https://github.com/pangfeng/csv-box#readme"
+}
