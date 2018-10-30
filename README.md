@@ -1,6 +1,8 @@
 # csv-box
 csv to json, csv parser, csv tools
 
+    npm i csv-box
+
 example:
 
 ```javascript
