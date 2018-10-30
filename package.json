@@ -2,7 +2,7 @@
   "name": "csv-box",
   "version": "1.0.0",
   "description": "csv to json, csv parser, csv tools",
-  "main": "index.js",
+  "main": "src/index.js",
   "scripts": {
     "dev": "webpack -w",
     "build": "webpack -p"
