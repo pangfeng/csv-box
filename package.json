@@ -1,9 +1,16 @@
 {
   "name": "csv-box",
-  "version": "1.0.6",
+  "version": "2.0.0",
   "description": "csv to json, csv parser, csv tools",
   "main": "src/index.js",
-  "keywords": ["csv", "json", "csvtojson", "csv2json", "csv to json", "csv 2 json" ],
+  "keywords": [
+    "csv",
+    "json",
+    "csvtojson",
+    "csv2json",
+    "csv to json",
+    "csv 2 json"
+  ],
   "scripts": {
     "dev": "webpack -w",
     "build": "webpack -p"
