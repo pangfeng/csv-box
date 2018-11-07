@@ -1,6 +1,6 @@
 {
   "name": "csv-box",
-  "version": "2.0.0",
+  "version": "1.0.6",
   "description": "csv to json, csv parser, csv tools",
   "main": "src/index.js",
   "keywords": [
