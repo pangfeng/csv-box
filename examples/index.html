@@ -11,12 +11,10 @@
     <script src="../dist/csv-box.js"></script>
     <script>
         
-        cbox.csv("./data/test.csv", (json)=>{
-            console.info(json);
-        })
-        cbox.csv("./data/test2.csv", (json)=>{
-            console.info(json);
-        })
+        cbox.csv("./data/test2.csv?t=" + Date.now(), (json)=>{
+            json.forEach(e => console.info(e))
+        });
+
 
 
 
